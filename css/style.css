@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'Hind';
+    src: url('../font/Hind-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../font/Poppins-Regular.ttf');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Hind';
+    text-decoration: none;
+    list-style: none;
+}
+
+.bg-dark {
+    background-color: #222328;
+}
+
+.py-10 {
+    padding: 10px 0px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.w-1140 {
+    width: 1140px;
+    margin: auto;
+}
+
+.w-15 {
+    width: 15%;
+}
+
+.w-85 {
+    width: 85%;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.jus-end {
+    justify-content: end;
+}
+
+.gap-15 {
+    gap: 15px;
+}
+
+.soc-icon li a,
+.con-info li a span {
+    color: #919194;
+}
+
+.soc-icon li a,
+.logo h3,
+.menu li a {
+    transition: 0.5s;
+}
+
+.soc-icon li a:hover {
+    color: #f75757;
+}
+
+.con-info li a {
+    color: white;
+}
+
+.border-h-r {
+    border-right: 1px solid #ffffff0d;
+}
+
+.border-h-b {
+    border-bottom: 1px solid #ffffff0d;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.logo h3 {
+    color: white;
+    letter-spacing: 2px;
+
+}
+
+.logo h3 span,
+.logo h3:hover,
+.menu li a:hover {
+    color: #f75757;
+}
+
+.menu li a {
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Poppins';
+    padding: 8px 16px;
+    display: block;
+}
+
+.py-24 {
+    padding: 24px 0px;
+}
+
+.btn-menu {
+    border: 2px solid #f75757;
+    border-radius: 50px;
+    font-size: 13px;
+}
+
+.btn-menu:hover {
+    border: 2px solid #f75757;
+    background-color: #f75757;
+    color: white !important;
+}
+
+.bg-img {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/home-1.jpg');
+    padding: 100px 0px;
+}
