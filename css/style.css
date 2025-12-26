@@ -387,6 +387,7 @@
     background-size: cover;
     background-position: center;
     margin-top: 70px;
+    background-attachment: fixed;
 }
 
 .bg-color {
@@ -600,6 +601,7 @@
     margin-left: 200px;
     border-radius: 5px;
     box-shadow: 0px 0px 5px 0px #555;
+    margin-top: -50px;
 }
 
 .e-1 {
@@ -682,7 +684,7 @@
     margin-bottom: 70px;
 }
 
-hr{
+.under-line{
     width: 78%;
     margin-left: 180px;
 }
@@ -730,7 +732,7 @@ span, .ten-1 a{
 } 
 
 span, .ten-1 a:hover{
-    color: #f75757;
+    color: red;
 }
 
 .ten-2{
@@ -749,7 +751,7 @@ span, .ten-1 a:hover{
 }
 
 a span:hover{
-    color: #f75757;
+    color:red;
 }
 
 .ten-3 a{
